@@ -4,7 +4,6 @@ import Count from './Components/Count';
 function App() {
   const [count, setCount] = useState(0);
   const handleAddQuantity = useCallback(() => {
-    console.log('clicou aqui')
     setCount(count + 1);
   }, [count])
 
