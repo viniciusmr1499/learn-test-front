@@ -1,0 +1,6 @@
+.container {
+  border: 1px solid red;
+  width: 500px;
+  height: auto;
+  background: #3498db;
+}
